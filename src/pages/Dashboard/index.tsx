@@ -36,10 +36,10 @@ const Dashboard: React.FC = () => {
       <Title>Explore repositórios no github</Title>
 
       <Form onSubmit={handleAddRepository}>
-        <input 
+        <input
           value={newRepo}
-          placeholder="Digite o nome do repositório" 
-          onChange={(e) => setNewRepo(e.target.value)} 
+          placeholder="Digite o nome do repositório"
+          onChange={(e) => setNewRepo(e.target.value)}
         />
         <button type="submit">Pesquisar</button>
       </Form>
